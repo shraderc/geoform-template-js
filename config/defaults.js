@@ -2,8 +2,8 @@ define({
     //Default configuration settings for the applciation. This is where you"ll define things like a bing maps key,
     //default web map, default app color theme and more. These values can be overwritten by template configuration settings
     //and url parameters.
-    "appid": "",
-    "webmap": "0c5cb13c4fc54b28bb26a125221ed96f",
+    "appid": "",//"2e61ffa8abe0416fbead4e7e57db665c",
+    "webmap": "9294429e307b47bda0f53b1f753d99bc",//"5855af816ce741ae938c527cb15a7f06",
     "form_layer": {
         "id": ""
     },
@@ -25,7 +25,7 @@ define({
     //Enter the url to your organizations bing maps key if you want to use bing basemaps
     "bingmapskey": "",
     //Defaults to arcgis.com. Set this value to your portal or organization host name.
-    "sharinghost": location.protocol + "//" + "www.arcgis.com",
+    "sharinghost": location.protocol + "//" + "cagisportal.maps.arcgis.com",
     "units": null,
     "useSmallHeader": false,
     "enableSharing": true,
@@ -43,7 +43,7 @@ define({
     "disableLogo": false,
     "enableBasemapToggle": false,
     "enableOfflineSupport": true,
-    "locate":false,
+    "locate": false,
     "locationSearchOptions": {
         "enableMyLocation": true,
         "enableSearch": true,
@@ -55,11 +55,11 @@ define({
     "locationSearch": true,
     //When searchExtent is true the locator will prioritize results within the current map extent.
     "searchExtent": false,
-    "searchLayers":[{
+    "searchLayers": [{
         "id": "",
         "fields": []
     }],
-    "attachmentInfo":{
+    "attachmentInfo": {
     },
     "submitButtonText": "",
     "viewSubmissionsText": "",
